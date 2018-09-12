@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pdf_ocr"
+version = "0.1.0"
+description = "Run optical character recognition on a select group of PDF files."
+authors = ["Reginald Johnson <reginald.johnson+github@outlook.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.7"
+ocrmypdf = "^7.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.5"
+pytest = "^3.8"
